@@ -1,0 +1,19 @@
+{
+  "name": "library-app-spa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "live-server ",
+    "build": "rollup -c --watch"
+  },
+  "author": "Suppolyar",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "eslint": "^8.46.0",
+    "rollup": "^3.27.1",
+    "rollup-plugin-import-css": "^3.3.1"
+  }
+}
