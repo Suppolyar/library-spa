@@ -5,8 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "live-server ",
-    "build": "rollup -c --watch"
+    "start": "live-server",
+    "build": "rollup -c --watch",
+    "dev": "npm run start & npm run build"
   },
   "author": "Suppolyar",
   "license": "ISC",
